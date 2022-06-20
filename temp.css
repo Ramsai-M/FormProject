@@ -1,5 +1,74 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+.container{
+	background: white;
+	width: 500px;
+	padding: 25px;
+	margin: 50px auto 0;
+	border-top: 5px solid blue;
+	box-shadow: 0 0 7px 5px rgba(0, 0, 0,0.5);
+}
+.container h2{
+	font-size: 24px;
+	line-height: 24px;
+	padding: 30px;
+	text-align: center;
+}
+.input-name{
+	width: 90%;
+	position: relative;
+	margin: 20px auto;
+}
+.lock{
+	padding: 8px 11px;
+}
+.iname{
+	width: 45%;
+	padding: 8px 0px 8px 40px;
+}
+span{
+	margin-left: 35px;
+}
+.text-name{
+	width: 100%;
+	padding: 8px 0px 8px 40px;
+}
+.input-name i{
+	position: absolute;
+	font-size: 18px;
+	color: blue;
+	border-right: 1px solid #cccccc;
+}
+.email{
+	padding: 8px;
+}
+.submit-button,.fileupload,.country,.phnnmbr,.dob{
+	width: 100%;
+	padding: 8px 0px 8px 40px;
+}
+.text-name,.iname,.submit-button,.fileupload,.country,.phnnmbr,.dob{
+	border: 1px solid #cccccc;
+	outline: none;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	transition: all 0.30s ease-in-out;
+}
+.text-name:hover,.iname:hover,.submit-button:hover,.fileupload:hover,.country:hover,.phnnmbr:hover,.dob:hover{
+	background-color: #fafafa;
+}
+.text-name:focus,.iname:focus,.submit-button:focus,.fileupload:focus,.country:focus,.phnnmbr:focus,.dob:focus{
+	border: 1px solid blue;
+}
+.radiobtn{
+	margin-left: 4px;
+}
+
+
 body {
-  background-color: lightblue;
+  background-color: lightGray;
 }
 h1#heading{
 	text-align: center;
@@ -7,3 +76,18 @@ h1#heading{
 h4{
 	margin-left: 20px;
 }
+button#printerbtn{
+	position: relative;
+	left: 80%
+}
+div.formdetails{
+	text-align: center;
+}
+#formtext{
+	font-size: 16px;
+	background-color: Orange;
+	margin-right: 5%;
+	font-weight: bold;
+	color: white;
+}
+
